@@ -17,15 +17,30 @@
 
 </head>
 <body>
-   <br />
-   <H1 class="text-center">PREVISÃO DO TEMPO</H1>
-   <br />
+    <H1 class="text-center">PREVISÃO DO TEMPO</H1>
+    <input type="text" id="cidade"/>
+    <button id="butunn" onclick="requestWeather();">Pesquisar</button>
+
+    <script>
+        var input = document.getElementById("cidade");
+        input.addEventListener("keyup", function(event) {
+        if (event.keyCode === 13) {
+        event.preventDefault();
+        document.getElementById("butunn").click();
+            }
+        });
+    </script>
+
+   <br/>
+   <br/>
+
    <div class="container-fluid">
        <div class="row">
            <div class="col-lg-1">
            </div>
+           
            <div class="col-lg-5">
-               <p id="cidade"></p>       
+               <p id="idcidade"></p>       
            </div>
 
            <div class="col-lg-6">
@@ -41,3 +56,4 @@
 
    </div>
 </body>
+</html>
