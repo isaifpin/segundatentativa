@@ -1,0 +1,82 @@
+h1 {
+    color: white;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1 { 
+    font-size: 300%;
+}
+
+h2 {
+    color: white;
+}
+
+h2 {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+h2 { 
+    font-size: 180%;
+}
+
+h3 {
+    color: white;
+}
+
+h3 {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+h3 { 
+    font-size: 180%;
+}
+
+h4 {
+    color: white;
+}
+
+h4 {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+h4 { 
+    font-size: 180%;
+}
+
+p {
+    color: white;
+}
+
+p {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+p { 
+    font-size: 180%;
+}
+
+p.li {
+    width: 2em;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+body {
+    font-family: Tahoma, sans-serif ;
+    padding-top: 3.5rem;
+    background-image: url(https://irga.rs.gov.br/upload/recortes/201805/15160119_26536_GD.jpg);
+    background-size: cover;
+
+}
+p.t2 {
+    width: 2em;
+    overflow: hidden;
+    text-overflow: clip;
+}
